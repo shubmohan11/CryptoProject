@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Search | CryptoView</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./search.css" />
+</head>
+
+<body>
+  <nav>
+      <img src="./crypto-view-logo.png" alt="Logo">
+  </nav>
+  <section class="form-container">
+    <form action="" class="main-form">
+      <input type="text" placeholder="Search..." name="q" id="search_field" />
+      <button>🔍</button>     
+    </form>  
+  </section>
+  <section>
+    <h1 class="info-head">Click on Search to get the Coins</h1>
+    <table>
+      <thead>
+        <tr class="table-row">
+          <th>S.No.</th>
+          <th>Logo</th>
+          <th>Name</th>
+          <th>Link (More info)</th>
+        </tr>
+      </thead>
+      <tbody id="search_result"></tbody>
+    </table>
+  </section>
+
+  <script src="./search.js"></script>
+</body>
+
+</html>
